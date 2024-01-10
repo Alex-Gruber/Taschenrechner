@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+table {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(20, 19, 19);
+    color: white;
+}
+
+td {
+    width: 25%;
+    text-align: center;
+    font-size: 24px;
+}
+
+td:hover {
+    border-radius: 10px;
+    background-color: rgba(34, 33, 34, 0.795);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: inset 0 0 25px 1px yellow;
+    color: rgb(212, 199, 199);
+}
+
+#result-area {
+    background-color: rgb(80, 80, 80);
+    height: 30vh;
+    color: wheat;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#result {
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+}
+
+#result:hover {
+    background-color: yellowgreen;
+    box-shadow: inset 0 0 25px 1px #38831a;
+}
+
+.highlight {
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+}
+
+.del-btn {
+    background-color: rgb(192, 10, 10);
+    border-radius: 10px;
+}
+
+.del-btn:hover {
+    background-color: rgb(32, 32, 32);
+    box-shadow: inset 0 0 25px 1px rgb(192, 10, 10);
+    color: rgb(240, 6, 6);
+}
